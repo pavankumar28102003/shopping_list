@@ -1,6 +1,5 @@
 #---PIP PACKAGES---#
 import streamlit as st
-from isoweek import Week
 
 #---BUILT-IN PYTHON MODULES
 from datetime import datetime, date

@@ -1,6 +1,5 @@
 #---PIP PACKAGES---#
 import streamlit as st
-from streamlit_option_menu import option_menu
 from isoweek import Week
 
 #---BUILT-IN PYTHON MODULES

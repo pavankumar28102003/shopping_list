@@ -8,7 +8,6 @@ import uuid
 
 
 #---IMPORT THE DATABASE PYTHON FILE db.py---#
-import db as db
 
 #---STREAMLIT SETTINGS---#
 page_title = "Weekly dinner and shopping app"
@@ -68,6 +67,3 @@ year = datetime.today().year
 month = datetime.today().month
 day = datetime.today().day+4
 months = list(calendar.month_name[1:])
-week_number = date(year, month, day).isocalendar()[1]
-week = Week(year, week_number)
-week_plus1 = Week(year, week_number+1)
